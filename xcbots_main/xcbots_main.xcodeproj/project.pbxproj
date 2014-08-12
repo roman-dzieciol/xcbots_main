@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F62BA05E199AB07100B67B50 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F62BA05D199AB07100B67B50 /* libboost_system.dylib */; };
 		F6DE0ED0199AAA840007CCEF /* SubObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DE0ECF199AAA840007CCEF /* SubObj.m */; };
 		F6FCDCF3199A4C1C00166090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FCDCF2199A4C1B00166090 /* Foundation.framework */; };
-		F6FCDCF6199A4C1C00166090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDCF5199A4C1C00166090 /* main.m */; };
+		F6FCDCF6199A4C1C00166090 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDCF5199A4C1C00166090 /* main.mm */; };
 		F6FCDCFA199A4C1C00166090 /* xcbots_main.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6FCDCF9199A4C1C00166090 /* xcbots_main.1 */; };
 /* End PBXBuildFile section */
 
@@ -27,11 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F62BA05D199AB07100B67B50 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../HightailExpressBoost/lib/libboost_system.dylib; sourceTree = "<group>"; };
 		F6DE0ECE199AAA840007CCEF /* SubObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubObj.h; path = ../../xcbots_sub/SubObj.h; sourceTree = "<group>"; };
 		F6DE0ECF199AAA840007CCEF /* SubObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubObj.m; path = ../../xcbots_sub/SubObj.m; sourceTree = "<group>"; };
 		F6FCDCEF199A4C1B00166090 /* xcbots_main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xcbots_main; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FCDCF2199A4C1B00166090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F6FCDCF5199A4C1C00166090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6FCDCF5199A4C1C00166090 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		F6FCDCF8199A4C1C00166090 /* xcbots_main-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcbots_main-Prefix.pch"; sourceTree = "<group>"; };
 		F6FCDCF9199A4C1C00166090 /* xcbots_main.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = xcbots_main.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F62BA05E199AB07100B67B50 /* libboost_system.dylib in Frameworks */,
 				F6FCDCF3199A4C1C00166090 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +71,7 @@
 		F6FCDCF1199A4C1B00166090 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F62BA05D199AB07100B67B50 /* libboost_system.dylib */,
 				F6FCDCF2199A4C1B00166090 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -78,7 +82,7 @@
 			children = (
 				F6DE0ECE199AAA840007CCEF /* SubObj.h */,
 				F6DE0ECF199AAA840007CCEF /* SubObj.m */,
-				F6FCDCF5199A4C1C00166090 /* main.m */,
+				F6FCDCF5199A4C1C00166090 /* main.mm */,
 				F6FCDCF9199A4C1C00166090 /* xcbots_main.1 */,
 				F6FCDCF7199A4C1C00166090 /* Supporting Files */,
 			);
@@ -145,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6DE0ED0199AAA840007CCEF /* SubObj.m in Sources */,
-				F6FCDCF6199A4C1C00166090 /* main.m in Sources */,
+				F6FCDCF6199A4C1C00166090 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +231,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcbots_main/xcbots_main-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../HightailExpressBoost/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../HightailExpressBoost/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -236,6 +249,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "xcbots_main/xcbots_main-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/../HightailExpressBoost/",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../HightailExpressBoost/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
