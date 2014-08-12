@@ -1,4 +1,0 @@
-[submodule "sub"]
-	path = sub
-	url = git@github.com:roman-dzieciol/xcbots_sub.git
-	branch = sub_branch
