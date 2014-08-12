@@ -4,5 +4,5 @@
 	branch = sub_branch
 [submodule "HightailExpressBoost"]
 	path = HightailExpressBoost
-	url = https://Mac-mini-Roman.local/git/HightailExpressBoost.git
+	url = http://Mac-mini-Roman.local/git/HightailExpressBoost.git
 	branch = test
