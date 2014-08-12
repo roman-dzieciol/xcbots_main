@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6AD1321199A992700F4C3B6 /* SubObj.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AD1320199A992700F4C3B6 /* SubObj.m */; };
 		F6FCDCF3199A4C1C00166090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FCDCF2199A4C1B00166090 /* Foundation.framework */; };
 		F6FCDCF6199A4C1C00166090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDCF5199A4C1C00166090 /* main.m */; };
 		F6FCDCFA199A4C1C00166090 /* xcbots_main.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6FCDCF9199A4C1C00166090 /* xcbots_main.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F6AD131F199A992700F4C3B6 /* SubObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubObj.h; path = ../../sub/SubObj.h; sourceTree = "<group>"; };
+		F6AD1320199A992700F4C3B6 /* SubObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubObj.m; path = ../../sub/SubObj.m; sourceTree = "<group>"; };
 		F6FCDCEF199A4C1B00166090 /* xcbots_main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xcbots_main; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FCDCF2199A4C1B00166090 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6FCDCF5199A4C1C00166090 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 		F6FCDCF4199A4C1C00166090 /* xcbots_main */ = {
 			isa = PBXGroup;
 			children = (
+				F6AD131F199A992700F4C3B6 /* SubObj.h */,
+				F6AD1320199A992700F4C3B6 /* SubObj.m */,
 				F6FCDCF5199A4C1C00166090 /* main.m */,
 				F6FCDCF9199A4C1C00166090 /* xcbots_main.1 */,
 				F6FCDCF7199A4C1C00166090 /* Supporting Files */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AD1321199A992700F4C3B6 /* SubObj.m in Sources */,
 				F6FCDCF6199A4C1C00166090 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +259,7 @@
 				F6FCDCFF199A4C1C00166090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SubObj.h"
 
 int main(int argc, const char * argv[])
 {
@@ -14,7 +15,7 @@ int main(int argc, const char * argv[])
 	@autoreleasepool {
 	    
 	    // insert code here...
-	    NSLog(@"Hello, World!");
+	    NSLog(@"Hello, World! %@", [SubObj new]);
 	    
 	}
     return 0;
