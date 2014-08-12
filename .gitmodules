@@ -1,4 +1,0 @@
-[submodule "dependencies/xcbots_sub"]
-	path = dependencies/xcbots_sub
-	url = https://github.com/roman-dzieciol/xcbots_sub.git
-	branch = master
