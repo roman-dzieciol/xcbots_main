@@ -5,13 +5,15 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5D8B2DFA-C312-402D-AA7C-EEEA26194D7D</string>
+	<string>87833529-1304-4E3D-9550-E53BB336F703</string>
 	<key>IDESourceControlProjectName</key>
 	<string>xcbots_main</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>164D761F-1516-422A-BBC0-31C071166D8B</key>
 		<string>https://github.com/roman-dzieciol/xcbots_main.git</string>
+		<key>BEC0789C-D49F-4572-98BA-2AD03FB684D4</key>
+		<string>https://github.com/roman-dzieciol/xcbots_sub.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>xcbots_main.xcworkspace</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>164D761F-1516-422A-BBC0-31C071166D8B</key>
 		<string>..</string>
+		<key>BEC0789C-D49F-4572-98BA-2AD03FB684D4</key>
+		<string>../../xcbots_sub</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/roman-dzieciol/xcbots_main.git</string>
@@ -35,6 +39,14 @@
 			<string>164D761F-1516-422A-BBC0-31C071166D8B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>xcbots_main</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BEC0789C-D49F-4572-98BA-2AD03FB684D4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>xcbots_sub</string>
 		</dict>
 	</array>
 </dict>
