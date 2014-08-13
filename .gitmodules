@@ -2,3 +2,7 @@
 	path = xcbots_sub
 	url = git@github.com:roman-dzieciol/xcbots_sub.git
 	branch = sub_branch
+[submodule "boost_express"]
+	path = boost_express
+	url = git@github.com:roman-dzieciol/boost_express.git
+	branch = master
