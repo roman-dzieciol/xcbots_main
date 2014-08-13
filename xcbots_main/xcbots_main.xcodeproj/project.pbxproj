@@ -239,7 +239,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../HightailExpressBoost/lib",
-					/Users/HighTail/xcbots_main/boost_express/lib,
+					"$(PROJECT_DIR)/../boost_express/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -258,7 +258,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/../HightailExpressBoost/lib",
-					/Users/HighTail/xcbots_main/boost_express/lib,
+					"$(PROJECT_DIR)/../boost_express/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
