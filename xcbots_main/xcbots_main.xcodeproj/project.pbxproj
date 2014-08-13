@@ -234,7 +234,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/../HightailExpressBoost/",
+					"$(PROJECT_DIR)/../boost_express/",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -253,7 +253,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(PROJECT_DIR)/../HightailExpressBoost/",
+					"$(PROJECT_DIR)/../boost_express/",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
