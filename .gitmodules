@@ -2,7 +2,3 @@
 	path = xcbots_sub
 	url = git@github.com:roman-dzieciol/xcbots_sub.git
 	branch = sub_branch
-[submodule "HightailExpressBoost"]
-	path = HightailExpressBoost
-	url = ssh://Mac-mini-Roman.local/git/HightailExpressBoost.git
-	branch = test
